@@ -1,0 +1,333 @@
+<html>
+	<head>
+		<title>
+			TABLES
+		</title>
+	</head>
+	
+	
+	<style>
+	
+	table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+	}
+	
+	.example{
+		border: 2px solid black;
+		background-color:rgba(0,0,0,0.3);
+		border-style:double;
+		border-radius:10px;
+	}
+	
+	.output{
+		border: 2px solid black;
+		background-color:rgba(0,0,0,0.1);
+		border-style:solid;
+		border-radius:10px;
+	
+	}
+	</style>
+	
+	<body>
+		<div class="headder">
+			<h1>TABLES</h1>
+		</div>
+		<hr>
+		<hr>
+		<div class="briefing">
+			<h2><u>INTRODUCTION</u></h2>
+			<br>
+			<p> A webpage can be made more informative and understandable using tables.</p>
+			<p>The HTML tables allow web authors to arrange data like text, images, links, other tables, etc. into rows and columns of cells.</p>
+		</div>
+		<hr>
+		<div class="tagdescription">
+			<h2><u>TABLES FORMATION</u></h2>
+		<p>Table heading can be defined using &lt th &gt tag. This tag will be put to replace &lt td &gt tag, which is used to represent actual data cell.
+ Normally you will put your top row as table heading as shown below, otherwise you can use &lt th &gt element in any row. Headings, which are defined in &lt th &gt tag are centered and bold by default.</p>
+			<fieldset>
+			<legend>Example</legend> <br>
+			<div class="example">
+                  &lt html &gt <br>
+				&nbsp &nbsp &nbsp &nbsp &lt head &gt <br>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt title &gt <br>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Example <br>
+				&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt /title &gt <br>
+				<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+				&nbsp &nbsp &nbsp &nbsp &lt /head &gt <br>
+				&nbsp &nbsp &nbsp &nbsp &lt body &gt <br>
+							<p>
+	
+				<br>
+					&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt table &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt th &gt Player's name &lt /th &gt<br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt th &gt Football Club &lt/th &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt th &gt Country &lt /th &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt /tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt Cristiano Ronaldo &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt Juventus &lt /td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt Portugal &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt /tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt Lionel Messi &lt /td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt Barcelona &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt Argentina &lt /td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt /tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt td &gt Eden Hazard &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt td &gt Chelsea &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt td &gt Belgium &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt /tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt td &gt Angel Di Maria &lt /td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt lt &gt PSG &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt Argentina &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt /tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt td &gt Luka Modric &lt /td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt td &gt Real Madrid &lt /td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt Crotia &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt /tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt lt &gt Toni Kroos &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt Real Madrid &lt /td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt Germany &lt/td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt /tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt tr &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gtSunil Chhetri &lt /td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &lt td &gtBengaluru fc &lt /td &gt <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt td &gt India &lt/td &gt  <br>
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &lt /tr &gt <br>
+  
+  
+ 
+				
+				
+				
+			   
+				&nbsp &nbsp &nbsp &nbsp &lt /body &gt <br>
+				&lt /html &gt <br>
+			</p>
+			</fieldset>
+			</div>	
+			
+			<fieldset>
+			<legend>Output</legend><br>
+			<div class="output">
+				<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+
+				<br>
+					<table>
+  <tr>
+    <th>Player's name</th>
+    <th>Football Club</th>
+    <th>Country</th>
+  </tr>
+  <tr>
+    <td>Cristiano Ronaldo</td>
+    <td>Juventus</td>
+    <td>Portugal</td>
+  </tr>
+  <tr>
+    <td>Lionel messi</td>
+    <td>Barcelona</td>
+    <td>Argentina</td>
+  </tr>
+  <tr>
+    <td>Eden Hazard</td>
+    <td>Chelsea</td>
+    <td>Belgium</td>
+  </tr>
+  <tr>
+    <td>Angel Di Maria</td>
+    <td>PSG</td>
+    <td>Argentina</td>
+  </tr>
+  <tr>
+    <td>Luka Modric</td>
+    <td>Real Madrid</td>
+    <td>Crotia</td>
+  </tr>
+  <tr>
+    <td>Toni Kroos</td>
+    <td>Real Madrid</td>
+    <td>Germany</td>
+  </tr>
+   <tr>
+    <td>Sunil Chhetri</td>
+    <td>Bengaluru fc</td>
+    <td>India</td>
+  </tr>
+  
+  
+</table>
+
+					
+					
+					
+					
+			</div>
+			</fieldset>
+		</div>
+		<hr>
+		<div class="attributes">
+			<h2><u>USE THE FOLLOWING</u></h2>
+			<ul>
+          <li>Use the HTML &lt table &gt element to define a table</li>
+          <li>Use the HTML &lt tr &gt element to define a table row</li>
+          <li>Use the HTML &lt td &gt element to define a table data</li>
+          <li>Use the HTML &lt th &gt element to define a table heading</li>
+          <li>Use the HTML &lt caption &gt element to define a table caption</li>
+          <li>Use the CSS border property to define a border</li>
+          <li>Use the CSS border-collapse property to collapse cell borders</li>
+          <li>Use the CSS padding property to add padding to cells</li>
+          <li>Use the CSS text-align property to align cell text</li>
+          <li>Use the CSS border-spacing property to set the spacing between cells</li>
+          <li>Use the colspan attribute to make a cell span many columns</li>
+          <li>Use the rowspan attribute to make a cell span many rows</li>
+          <li>Use the id attribute to uniquely define one table</li>  
+            <br>
+            <h2></h2>
+            <table border="1">
+				<tr bgcolor="gray">
+					<th >SL. NO.</th>
+					<th>Some special properties</th>
+                    <th>Code</th>
+				</tr>
+				
+				<tr>
+					<td>1</td>
+					<td><b>Adding border to a table</b><br>
+						<p>To add border to a table we have to use css</p></td>
+<td>table, th, td <br>
+{
+    border: 1px solid black;
+}</td>
+</tr>
+				
+				<tr>
+					<td>2</td>
+					<td><b>Border-Collapse</b><br>
+					<p>If you want the border to collapse into one solid border this property is used </p>
+                    </td>
+                <td>table, th, td <br>{
+    border: 1px solid black;<br>
+    border-collapse: collapse;
+}
+                </tr>
+				
+				<tr>
+					<td>3</td>
+					<td><b>Padding</b><br>
+	              <p>This property is used to specify the space between cell content cell border</p>
+					</td>
+                    <td>th, td <br>
+                    {
+    padding: 15px;
+}
+                    </td>
+				</tr>
+				
+				<tr>
+					<td>4</td>
+					<td><b>Text-align </b><br>
+					<p> This property is used to align the headings of the table.they can be aligned to centre,left and right.</p> 
+					</td>
+				<td>th <br>
+                {
+    text-align: left;
+}
+  </td>
+                </tr>
+				
+				<tr>
+					<td>5</td>
+					<td><b>Border-spacing</b><br>
+						<p>This property is used to specift the space between the cells. 	</p>				</td>
+				<td>table <br>{
+    border-spacing: 5px;
+}</td>
+                </tr>
+                <tr>
+                <td>6</td>
+                <td><b>Colspan</b>
+                <p>This property is used to make a cell span more than one column </p>
+                </td>
+                <td>
+                &lt th colspan="2" &gt cell content &lt /th &gt </td>
+                </tr>
+                
+                <tr><td>7</td>
+                <td><b>Rowspan</b>
+                <p>This property is used to make a cell span more than one row</p></td>
+   <td>&lt th rowspan="2" &gt /th&gt</td>             
+                
+                </tr>
+                <tr>
+                <td>8</td>
+                <td><b>Caption</b>
+                <p>This property is used to add a caption to the table</p>
+                </td>
+                <td>&lt caption &gt Monthly savings &lt/caption &gt </td>
+                </tr>
+                
+                <tr>
+                <td>9</td>
+                <td><b>Special style</b>
+                <p>This property is used to add special style to the table. The attribute used is id.</p>
+                </td>
+               
+               
+               
+               
+               
+              <td> table#t01 <br> {
+    width: 100%; 
+    background-color: #f1f1c1;
+}<br>
+                &lt table li="t01" &gt
+                
+                </td>
+                </tr>
+			</table><br>
+			
+		</div>
+	</body>
+</html>
+		
+		
